@@ -13,8 +13,8 @@ import os
 from PIL import Image
 import sys
 import time
-subscription_key = "a43a607cf8a149c3a4f2b0d4d7623048"
-endpoint = "https://mikeprem.cognitiveservices.azure.com/"
+subscription_key = "your_key"
+endpoint = "your_endpoint"
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 print("===== Batch Read File - local =====")
 # Get image of handwriting
