@@ -5,7 +5,7 @@ import re
 import numpy as np
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
-directory=os.fsdecode(r'C:\Users\wb511527\OneDrive - WBG\IEG-Nutrition\Additional\PJPR')
+directory=os.fsdecode(r'Your Directory')
 os.chdir(directory)
 tax=pd.read_excel('Taxonomy.xlsx',encoding='latin1')
 df=pd.DataFrame(np.empty((100000,len(tax)+2)))
