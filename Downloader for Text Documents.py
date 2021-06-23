@@ -19,7 +19,7 @@ misslis=[]
 i=0
 for i in range(0,len(df)):
   try:
-     browser.get("http://ifcintranet.ifc.org/wps/wcm/connect/dept_int_content/ims/ifc+board/resources+-+board+paper+2")
+     browser.get()
      f=browser.find_element_by_xpath("html").text
 
      with open(df.iloc[i][0]+".txt", "w",encoding='utf-8') as text_file:
