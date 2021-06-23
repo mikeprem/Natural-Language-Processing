@@ -38,8 +38,8 @@ for file in os.listdir(directory):
 df=df[df["Text Section"]!="0.0"]
 
 
-key = "3b0cce824fd04bbcb9c9c7867f643b7c"
-endpoint = "https://spach-ifc.cognitiveservices.azure.com/"
+key = "your_key"
+endpoint = "your_endpoint"
 
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
